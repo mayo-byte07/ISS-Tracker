@@ -36,3 +36,23 @@ graph TD
     style B fill:#f9f,stroke:#333,stroke-width:2px
     style C fill:#bbf,stroke:#333,stroke-width:2px
 
+---
+
+##💻 Getting Started
+
+1.  Clone the Repository
+    git clone [suspicious link removed]
+    cd iss-tracker
+
+2.  Install Dependencies
+    npm install
+
+3.  Environment Setup
+    Create a .env file and add your NASA API Key:
+    VITE_NASA_API_KEY=your_key_here
+
+4.  Launch Development Server
+    npm run dev
+
+---
+
