@@ -26,12 +26,13 @@
 
 ```mermaid
 graph TD
-    A[Space APIs] -->|Rate Limited| B(ISS-Tracker Engine)
+    A[Space APIs] -->|Rate Limited| B[ISS-Tracker Engine]
     B --> C{Data Pipeline}
-    C -->|WebSocket/Context| D[React UI]
+    C --> D[React UI]
     D --> E[ISS Tracking]
     D --> F[Launch Charts]
     D --> G[3D Visualization]
-
----
+    
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
 
